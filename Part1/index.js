@@ -25,7 +25,6 @@ function play(clickedId) {
   const bottomCenter = board[7];
   const bottomRight = board[8];
 
-  // CHECKS ALL WINNING COMBINATIONS
   if (topLeft !== undefined && topLeft === topCenter && topLeft === topRight) {
     alert(`${topLeft} is the winner`);
     return;
